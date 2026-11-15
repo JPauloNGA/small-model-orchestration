@@ -66,7 +66,7 @@ Os resultados não sustentam a tese de que modelos pequenos são **equivalentes*
 
 ### 4.3 A conexão com a literatura
 
-A ideia de especialização não é nova. O projeto `trunk-and-branches-isaque-2` propõe colunas DoRA em um modelo congelado; este trabalho propõe a versão factível em hardware de 2016: roteamento de modelos inteiros por categoria, com RAG como memória externa. A diferença é de escala e de método, não de princípio.
+A ideia de especialização não é nova: modelos de mistura de especialistas (MoE) e adaptadores de baixo posto (LoRA) já exploram a composição em vez do escalonamento. O que este trabalho propõe é a versão factível em hardware de 2016: roteamento de modelos inteiros por categoria, com RAG como memória externa. A diferença é de escala e de método, não de princípio.
 
 ## 5. Limitações
 
