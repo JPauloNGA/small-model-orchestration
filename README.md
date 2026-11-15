@@ -67,7 +67,7 @@ O sistema tem quatro camadas. Nenhuma delas exige um modelo maior que 7B.
 
 **Para o desenvolvimento de agentes:** a qualidade da resposta não é linearmente proporcional ao tamanho do modelo. O especialista pequeno entregou código mais idiomático que o generalista maior, porque o treinamento e o alinhamento importam mais que o número de parâmetros.
 
-**Para a pesquisa em AGI:** a inteligência útil pode emergir da composição de modelos especializados pequenos, não de um modelo monolítico gigante. O Isaque 2.0 propõe isso com colunas DoRA em um modelo congelado; este repositório propõe a versão factível: roteamento de modelos inteiros por categoria, com RAG como memória externa.
+**Para a pesquisa em AGI:** a inteligência útil pode emergir da composição de modelos especializados pequenos, não de um modelo monolítico gigante. Este repositório propõe uma versão factível dessa ideia: roteamento de modelos inteiros por categoria, com RAG como memória externa.
 
 ## O que não está aqui
 
@@ -77,4 +77,3 @@ Este repositório contém **apenas documentação, dados consolidados e gráfico
 
 - [`llm-hardware-envelope`](https://github.com/JPauloNGA/llm-hardware-envelope): envelope de hardware, GPU vs CPU, MoE, prefix caching, pipeline de voz.
 - [`llm_study`](https://github.com/JPauloNGA/llm_study): escolha de modelo, quantização, idioma, roteamento, RAG.
-- [`trunk-and-branches-isaque-2`](https://github.com/lcsmotta7/trunk-and-branches-isaque-2): inspiração para a ideia de especialização (colunas DoRA em modelo congelado).
